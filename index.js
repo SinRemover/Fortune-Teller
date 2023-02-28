@@ -9,11 +9,16 @@ function ranMsg(){
     let noun1 = Math.floor(Math.random() * nounLength) 
     let noun2 = Math.floor(Math.random() * nounLength)
     let sing 
+    let sing2
+    if(adjectives[adj1].charAt(0)==="a" || adjectives[adj1].charAt(0)==="e" || adjectives[adj1].charAt(0)==="i" || adjectives[adj1].charAt(0)==="o" || adjectives[adj1].charAt(0)==="u"){
+        sing2 = "an"
+    }else sing = "a"
     if(adjectives[adj2].charAt(0)==="a" || adjectives[adj2].charAt(0)==="e" || adjectives[adj2].charAt(0)==="i" || adjectives[adj2].charAt(0)==="o" || adjectives[adj2].charAt(0)==="u"){
         sing = "an"
     }else sing = "a"
-    console.log(`If you've had a ${adjectives[adj1]} ${nouns[noun1]} expect ${sing} ${adjectives[adj2]} ${nouns[noun2]} soon`) 
+    return `If you've had ${sing2} ${adjectives[adj1]} ${nouns[noun1]} expect ${sing} ${adjectives[adj2]} ${nouns[noun2]} soon`
 }
+
 
 
 
