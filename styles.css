@@ -1,0 +1,29 @@
+body{
+    background-color: #3E54AC;
+}
+h1{
+    color: #BFDCE5;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.btn{
+    background-color: #AD7BE9;
+    border-color: #AD7BE9;
+    color: #EEEEEE;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.btn:hover{
+    background-color: #BFDCE5;
+    border-color: #BFDCE5;
+}
+
+.button-main{
+    margin: auto;
+    margin-top: 10%;
+}
