@@ -1,7 +1,10 @@
 body{
-    background-image: url(images/Sin_night_sky_dark_blue_purple_stars_4df591ed-8949-49a7-b07b-b22ab513a4c5.png);
-    background-color: #3E54AC;
+    background: url(images/Sin_night_sky_dark_blue_purple_stars_4df591ed-8949-49a7-b07b-b22ab513a4c5.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-color: #3E54AC;
     background-blend-mode: multiply;
 }
 h1{
@@ -30,3 +33,19 @@ h1{
     margin: auto;
     margin-top: 10%;
 }
+
+@media only screen and (max-width: 770px) {
+    body { 
+        background: url(images/Sin_night_sky_dark_blue_purple_stars_eb1c65cd-9f36-4c9b-847e-f15ac0f4cb29.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #3E54AC;
+        background-blend-mode: multiply;
+      }
+    .main-h1{
+        padding: 1em;
+        text-align: center;
+    }
+  }
