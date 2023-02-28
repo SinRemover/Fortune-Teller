@@ -1,5 +1,8 @@
 body{
+    background-image: url(images/Sin_night_sky_dark_blue_purple_stars_4df591ed-8949-49a7-b07b-b22ab513a4c5.png);
     background-color: #3E54AC;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 h1{
     color: #BFDCE5;
