@@ -16,9 +16,8 @@ function ranMsg(){
     if(adjectives[adj2].charAt(0)==="a" || adjectives[adj2].charAt(0)==="e" || adjectives[adj2].charAt(0)==="i" || adjectives[adj2].charAt(0)==="o" || adjectives[adj2].charAt(0)==="u"){
         sing = "an"
     }else sing = "a"
-    document.getElementById("message-ran").innerHTML = `If you've had ${sing2} ${adjectives[adj1]} ${nouns[noun1]} expect ${sing} ${adjectives[adj2]} ${nouns[noun2]} soon`;
+    document.getElementById("message-ran").innerHTML =`Your path will cross with ${sing2} ${adjectives[adj1]} ${nouns[noun1]} who will bring ${sing} ${adjectives[adj2]} ${nouns[noun2]} into your life.`;
 }
-
 
 
 
